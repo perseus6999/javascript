@@ -1,1 +1,1 @@
-console.log("pritam")
+console.log("pritam") 
