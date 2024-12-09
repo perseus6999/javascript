@@ -1,15 +1,44 @@
 
 // primitive datatypes
 
-// number -> upto  2e53
-// bigint -> for large numbers 
-// string  
-// boolean 
-// null -> standalone value
-// undefined -> 
-// symbol -> unique 
+// 7 types -> String, Number, Boolean, null, undefined, Symbol
 
-// object 
+const score = 10 
+const scoreValue = 100.3
+const isLoggediIN = false
+const OutsideTemp = null
+let userEmail ; 
 
-console.log(typeof undefined) 
-console.log(typeof null)
+const Id = Symbol("123") 
+const anotherId = Symbol("123") 
+
+console.log(Id === anotherId)
+
+
+// Reference (Non primitive)
+
+// Array , objects, functions 
+
+// Array -> 
+
+const heros = ["Shaktiman" , "Naagraj" , "Doga"] ;
+
+// objects -> 
+
+let myobj = {
+    name : "hitesh",
+    age : 22,
+}
+
+console.log(typeof null) // typeof null == object
+// typeof object (native or host and does implement [[call]]) -> function
+// typeof object (native and does not implement [[call]]) -> object 
+
+
+// functino -> 
+
+const myfunction = function(){
+    console.log("Hello World") 
+}
+
+console.log(typeof myfunction)
