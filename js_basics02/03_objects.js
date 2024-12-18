@@ -1,5 +1,4 @@
 
-
 // object literals -> Non singelton object
 
 const mySym = Symbol("Key1")

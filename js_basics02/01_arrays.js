@@ -1,5 +1,5 @@
 
-const myArr = [0 , 1, 2, 3, 4, 5] 
+const myArr = [5 , 4 , 3 , 2 , 1, 0 ] 
 
 
 console.log(myArr[2]) 
@@ -32,7 +32,7 @@ const arr1 = myArr.slice(2, 4) // includes 2, 3
 console.log(arr1)
 console.log(myArr)
 
-// splice
+// ex -> splice
 
 const arr2 = myArr.splice(1, 3)
 
