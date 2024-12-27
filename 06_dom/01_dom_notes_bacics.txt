@@ -1,0 +1,9 @@
+innerHTML - returns all html nodes
+textContent = returns all text text Content
+innerText - returns text of the selected node
+querySelector - selects the first element according to the input
+querySelectorAll - select all the elements according to the input
+getAttribute - for getting an attribute
+setAttribute - for overwriting an attribute
+document.getElementById - get element by id
+document.getElementByClassName - get element by class name 
