@@ -1,5 +1,5 @@
 innerHTML - returns all html nodes
-textContent = returns all text text Content
+textContent = returns all text Content
 innerText - returns text of the selected node
 querySelector - selects the first element according to the input
 querySelectorAll - select all the elements according to the input
