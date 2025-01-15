@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+    <h1> chai aur code </h1>
+    <button id="START"> START </button>
+    <button id="STOP"> STOP </button> 
+</body>
+<script>
+
+    const sayDate = function() {
+        console.log("Pritam", Date.now()) ;
+    }
+    const sayByInput = function(str) {
+        console.log(str, Date.now()) ;
+    }
+
+    let intervalId ;
+    document.querySelector('#START').addEventListener('click', function(){
+         intervalId = setInterval(sayByInput, 1000, "Mohanta");
+    }) ;
+
+    // document.querySelector('#STOP').addEventListener('click', function(){
+    //     clearInterval(intervalId) ;
+    //     console.log("STOPPED")
+    // }) ;
+    
+    
+    
+</script>
+</html>
