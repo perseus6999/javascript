@@ -128,9 +128,9 @@ fetch('https:jsonplaceholder.typicode.com/users')
     const data = response.json() ;
     return data ;
 })
-.then(function(data){
+.then(function(data) {
     console.log(data) ;
 })
-.catch(function(err){
+.catch(function(err) {
     console.log(err)
 }) ;
