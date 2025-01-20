@@ -13,20 +13,19 @@ Value	State	Description
 4	DONE	The operation is complete.
 <body>
     <script>
-
         const requestUrl = 'https://api.github.com/users/hiteshchoudhary' ;
         const xhr = new XMLHttpRequest() ;
         xhr.open('GET' , requestUrl)
         xhr.onreadystatechange = function() {
             console.log(xhr.readyState) ;
-            if(xhr.readystate === 4) {
-                const data = (this. responseText) ; 
+            
+            if(xhr.readyState === 4) {
+                const data = JSON.parse(this.responseText) ; 
                 console.log(data) ;
-                consolr.log(data.followers) ; 
+                console.log(data.followers_url) ; 
             }
         }
         xhr.send() ;
     </script>
-
 </body>
 </html>
