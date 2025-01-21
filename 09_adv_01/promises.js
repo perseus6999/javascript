@@ -13,7 +13,6 @@ const PromiseOne = new Promise(function(resolve, reject) {
     }, 1000) ;
 
 }) ;
-
 PromiseOne.then(function(){
     console.log("Promise Consumed") ;
 })
